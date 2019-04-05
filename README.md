@@ -1,2 +1,2 @@
-# electron
-Testing Electron
+## Pingo
+A sample electron app.
