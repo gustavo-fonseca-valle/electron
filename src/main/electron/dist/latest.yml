@@ -1,8 +1,8 @@
-version: 1.0.29
+version: 1.0.31
 files:
-  - url: myApp-Setup-1.0.29.exe
-    sha512: 4AtyKUeMOgoBx4NznwGSUX2f34mE9YzY7TgHkt00p4EaYr4ua1tfy/iY7QUlGY2VJbCUc82PSl3tQ0R6h9A99w==
-    size: 57073584
-path: myApp-Setup-1.0.29.exe
-sha512: 4AtyKUeMOgoBx4NznwGSUX2f34mE9YzY7TgHkt00p4EaYr4ua1tfy/iY7QUlGY2VJbCUc82PSl3tQ0R6h9A99w==
-releaseDate: '2019-05-02T10:49:38.858Z'
+  - url: myApp-Setup-1.0.31.exe
+    sha512: 08r3KxBl1Ym5xpm4sPwkF4WNJpkLg4UXxcWN61h4MjVwavVgLYuVijuJ3hmaiolWL93CYN7X8YN5CU7Zevuk+g==
+    size: 57073610
+path: myApp-Setup-1.0.31.exe
+sha512: 08r3KxBl1Ym5xpm4sPwkF4WNJpkLg4UXxcWN61h4MjVwavVgLYuVijuJ3hmaiolWL93CYN7X8YN5CU7Zevuk+g==
+releaseDate: '2019-05-02T16:11:09.623Z'

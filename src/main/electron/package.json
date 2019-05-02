@@ -1,6 +1,6 @@
 {
   "name": "myApp",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "description": "Testing Electron + Vaadin",
   "main": "src/core/main.js",
   "scripts": {
