@@ -11,6 +11,10 @@
     "pack": "electron-builder --dir",
     "dist": "electron-builder"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavocamelo/electron.git"
+  },
   "author": "Gustavo Valle",
   "license": "MIT",
   "devDependencies": {
