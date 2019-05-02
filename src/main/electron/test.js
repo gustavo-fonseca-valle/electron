@@ -13,8 +13,8 @@ builder.build({
         "copyright": "Copyright © 2019 Gustavo Valle",
         "publish": [
           {
-            "provider": "github",
-            "url": "git+https://github.com/gustavocamelo/electron.git"
+            "provider": "generic",
+            "url": url
           }
         ],
         "asar": false

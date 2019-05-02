@@ -21,15 +21,6 @@
     "electron": "^4.1.4",
     "electron-builder": "^20.36.2"
   },
-  "build": {
-    "appId": "com.gustavovalle.pingo",
-    "productName": "Pingo",
-    "copyright": "Copyright © year Gustavo Valle",
-    "publish": {
-      "provider": "github",
-      "url": "git+https://github.com/gustavocamelo/electron.git"
-    }
-  },
   "dependencies": {
     "dotenv": "^7.0.0",
     "electron-updater": "^4.0.6",
