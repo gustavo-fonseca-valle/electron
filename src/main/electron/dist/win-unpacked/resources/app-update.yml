@@ -1,0 +1,5 @@
+owner: gustavocamelo
+repo: electron
+provider: github
+url: 'git+https://github.com/gustavocamelo/electron.git'
+updaterCacheDirName: myapp-updater

@@ -1,0 +1,39 @@
+{
+  "name": "myApp",
+  "version": "1.0.30",
+  "description": "Testing Electron + Vaadin",
+  "main": "src/core/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "node -r dotenv/config test.js",
+    "postinstall": "electron-builder install-app-deps",
+    "release": "build",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavocamelo/electron.git"
+  },
+  "author": "Gustavo Valle",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^4.1.4",
+    "electron-builder": "^20.36.2"
+  },
+  "build": {
+    "appId": "com.gustavovalle.pingo",
+    "productName": "Pingo",
+    "copyright": "Copyright © year Gustavo Valle",
+    "publish": {
+      "provider": "github",
+      "url": "git+https://github.com/gustavocamelo/electron.git"
+    }
+  },
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "electron-updater": "^4.0.6",
+    "find-process": "^1.4.1",
+    "tree-kill": "^1.2.1"
+  }
+}

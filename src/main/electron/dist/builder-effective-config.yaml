@@ -1,0 +1,10 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.gustavovalle.pingo
+productName: Pingo
+copyright: Copyright © year Gustavo Valle
+publish:
+  provider: github
+  url: 'git+https://github.com/gustavocamelo/electron.git'
+electronVersion: 4.1.4
