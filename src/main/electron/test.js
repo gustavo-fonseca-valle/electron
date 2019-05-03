@@ -1,5 +1,5 @@
 const builder = require("electron-builder");
-const { url } = require('./config');
+const { url, appId, productName } = require('./config');
 const Platform = builder.Platform;
 
 builder.build({
@@ -8,8 +8,8 @@ builder.build({
         "directories": {
             "output": "build"
         },
-        "appId": "com.gustavovalle.pingo",
-        "productName": "myApp",
+        "appId": appId,
+        "productName": productName,
         "copyright": "Copyright © 2019 Gustavo Valle",
         "publish": [
           {
@@ -17,7 +17,11 @@ builder.build({
             "url": url
           }
         ],
-        "asar": false
+        "asar": false,
+        "nsis": {
+            "oneClick": false,
+            "allowToChangeInstallationDirectory": true
+        }
     }
 })
 .then(() => {
