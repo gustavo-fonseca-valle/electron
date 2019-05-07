@@ -1,6 +1,6 @@
 {
   "name": "myapp",
-  "version": "1.0.33",
+  "version": "1.0.36",
   "description": "Testing Electron",
   "main": "src/core/main.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "postinstall": "electron-builder install-app-deps",
     "release": "build",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+    "dist": "electron-builder -c.extraMetadata.name=myapp2"
   },
   "repository": {
     "type": "git",

@@ -1,8 +1,0 @@
-version: 1.0.32
-files:
-  - url: myApp-Setup-1.0.32.exe
-    sha512: 7LRBt+cRKUCAZnmt3eMzYJwHw64XGSwTcL1NkVDHNiDplisDPWpsz25OFvH+7C+AHBCi4kVhpu8VyalwKsetRA==
-    size: 57070722
-path: myApp-Setup-1.0.32.exe
-sha512: 7LRBt+cRKUCAZnmt3eMzYJwHw64XGSwTcL1NkVDHNiDplisDPWpsz25OFvH+7C+AHBCi4kVhpu8VyalwKsetRA==
-releaseDate: '2019-05-02T17:13:41.635Z'

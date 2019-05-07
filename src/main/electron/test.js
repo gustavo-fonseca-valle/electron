@@ -17,11 +17,15 @@ builder.build({
             "url": url
           }
         ],
-        "asar": false,
-        "nsis": {
-            "oneClick": false,
-            "allowToChangeInstallationDirectory": true
-        }
+        "asar": false/* ,
+        "extraMetadata": [{
+            "name": appId
+        }] */
+        /*"nsis": {
+            //"oneClick": true,
+            "guid": appId
+             //"allowToChangeInstallationDirectory": true
+        }*/
     }
 })
 .then(() => {
