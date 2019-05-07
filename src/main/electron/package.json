@@ -1,5 +1,5 @@
 {
-  "name": "myapp",
+  "name": "seila",
   "version": "1.0.36",
   "description": "Testing Electron",
   "main": "src/core/main.js",
@@ -9,7 +9,7 @@
     "postinstall": "electron-builder install-app-deps",
     "release": "build",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder -c.extraMetadata.name=myapp2"
+    "dist": "electron-builder -c.extraMetadata.name=myapp1"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^4.1.4",
-    "electron-builder": "^20.36.2"
+    "electron-builder": "^20.39.0"
   },
   "dependencies": {
     "electron-updater": "^4.0.6",

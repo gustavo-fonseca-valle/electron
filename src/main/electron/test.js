@@ -17,10 +17,10 @@ builder.build({
             "url": url
           }
         ],
-        "asar": false/* ,
-        "extraMetadata": [{
+        "asar": false,
+        "extraMetadata": {
             "name": appId
-        }] */
+        }
         /*"nsis": {
             //"oneClick": true,
             "guid": appId
