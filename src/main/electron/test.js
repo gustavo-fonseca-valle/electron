@@ -8,8 +8,8 @@ builder.build({
         "directories": {
             "output": "build"
         },
-        "appId": appId,
-        "productName": productName,
+       /*  "appId": appId,
+        "productName": productName, */
         "copyright": "Copyright © 2019 Gustavo Valle",
         "publish": [
           {
