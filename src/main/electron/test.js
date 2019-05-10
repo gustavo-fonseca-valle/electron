@@ -9,15 +9,17 @@ builder.build({
             "output": "build"
         },
         "copyright": "Copyright © 2019 Gustavo Valle",
-        "publish": [
-          {
+        "publish": [{
             "provider": "generic",
             "url": url
-          }
-        ],
+        }],
         "asar": false,
         "extraMetadata": {
             "name": appId
+        },
+        "win": {
+            "publisherName": "CN=Contoso Software, O=Contoso Corporation, C=USS",
+            "verifyUpdateCodeSignature": true              
         }
     }
 })
