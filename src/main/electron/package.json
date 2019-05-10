@@ -1,6 +1,6 @@
 {
   "name": "seila",
-  "version": "1.0.41",
+  "version": "1.0.42",
   "description": "Testing Electron",
   "main": "src/core/main.js",
   "scripts": {
