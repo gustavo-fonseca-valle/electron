@@ -8,8 +8,6 @@ builder.build({
         "directories": {
             "output": "build"
         },
-       /*  "appId": appId,
-        "productName": productName, */
         "copyright": "Copyright © 2019 Gustavo Valle",
         "publish": [
           {
@@ -21,11 +19,6 @@ builder.build({
         "extraMetadata": {
             "name": appId
         }
-        /*"nsis": {
-            //"oneClick": true,
-            "guid": appId
-             //"allowToChangeInstallationDirectory": true
-        }*/
     }
 })
 .then(() => {
