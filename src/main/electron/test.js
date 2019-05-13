@@ -18,7 +18,6 @@ builder.build({
             "name": appId
         },
         "win": {
-            "publisherName": "CN=Contoso Software, O=Contoso Corporation, C=US",
             "verifyUpdateCodeSignature": true              
         }
     }
