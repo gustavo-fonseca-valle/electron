@@ -1,6 +1,6 @@
 {
   "name": "seila",
-  "version": "1.0.44",
+  "version": "1.0.45",
   "description": "Testing Electron",
   "main": "src/core/main.js",
   "scripts": {
@@ -22,6 +22,7 @@
     "electron-builder": "^20.39.0"
   },
   "dependencies": {
+    "dotenv": "^8.0.0",
     "electron-updater": "^4.0.6",
     "find-process": "^1.4.1",
     "tree-kill": "^1.2.1"
