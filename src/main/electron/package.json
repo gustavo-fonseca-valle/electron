@@ -1,6 +1,6 @@
 {
   "name": "myapp",
-  "version": "1.0.45",
+  "version": "1.0.46",
   "description": "Testing Electron",
   "main": "src/core/main.js",
   "scripts": {
